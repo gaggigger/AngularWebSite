@@ -1,0 +1,167 @@
+/* TEMPLATE STYLES */
+
+/*Colors*/
+
+.btn-primary {
+    background: #212121!important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #2E2E2E !important;
+}
+
+.btn-primary.active {
+    background-color: #2E2E2E !important;
+}
+
+.btn-default {
+    background: #263238!important;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background-color: #37474F !important;
+}
+
+.btn-default.active {
+    background-color: #37474F !important;
+}
+.carousel-indicators li {
+    background: #263238!important;
+}
+.card .card-data {
+    background-color: #2E2E2E;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #2E2E2E!important;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+/* Necessary for full page carousel*/
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+/* Carousel*/
+
+.carousel{
+    height:75%;
+}
+
+.carousel-inner,.carousel-item,
+.active  {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+@media (min-width: 776px) {
+    .carousel .view ul li {
+        display: inline;
+    }
+    .carousel .view .full-bg-img ul li .flex-item {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.product-card .card-block .card-title,.product-card .card-block .card-text {
+    padding-bottom: 0px;
+    border-bottom: 0px solid #fff;
+    margin-bottom: 0px;
+}
+.label-bts{
+    position: inherit !important;
+    background-color: #818a91 !important;
+     font-size: 80% !important;
+}
+.progress{
+    height:0.5rem;
+}
+.margin-top-10{
+    margin-top: 0.5rem;
+}
+.b-b-1{
+    border-bottom: 1px solid #e0e0e0;;
+    padding-bottom: 0rem;
+}
+.product-card .cta {
+    display: flex;
+    justify-content: space-around;
+}
+.cta p{
+    margin-bottom: 0px;
+    font-size: inherit !important;
+    margin-top: 0.5rem;
+}
+.product-card .cta p span{
+    text-decoration: none !important;
+}
+.card-img-overlay{
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 0px 0px;
+    margin-top: 7rem;
+}
+.card-img-overlay a{
+    color: #fff;
+}
+#category img{
+    width: 5rem;
+    height: 5rem;
+}
+#category h5{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
